@@ -1,0 +1,37 @@
+.SearchBar{
+    display: flex;
+    justify-content: center;
+}
+
+.searchInput{
+    height: 40px;
+    width: 450px;
+    padding-left: 15px;
+    font-size: 18px;
+    border: none;
+    background-color: aliceblue;
+    outline: none;
+    color: #464e4e;
+
+}
+
+.searchBtn{
+    border: none;
+    font-size: 18px;
+    color: #46685d;
+}
+
+.searchBtn:hover{
+    border: none;
+    font-size: 18px;
+    color: #d38510;
+    cursor: pointer;
+
+}
+
+.searchBtn:active {
+    transform: scale(0.995);
+    /* Scaling button to 0.98 to its original size */
+    box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.24);
+    /* Lowering the shadow */
+}
